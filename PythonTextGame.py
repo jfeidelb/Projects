@@ -3,6 +3,7 @@ import operator
 
 print("This is an educational game where you will answer simple math questions.")
 print("How many questions would you like to answer?")
+
 questionInput = input()
 
 def MathQuestion(questionInput):
