@@ -3,7 +3,7 @@
 date=$(date '+%Y-%m-%d %H:%M')
 
 echo "Uploading to GitHub..."
-cd /a/Projects
+cd /a/ProgrammingProjects/GitHub
 git add .
 git commit -m "$date"
 git push -u origin main
